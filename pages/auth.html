@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hi!</title>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" type="image/x-icon" href=".svg">
+    </head>
+    <body>
+        <script src="./auth.js" defer></script>
+
+        <div class="grid-container">
+            <div class="left">
+                <img src="/imgs/guess.png" alt="Questioning avatar" width="500">
+            </div>
+            <div class="right">
+                <h1>What's my nickname?</h1>
+                <form id="passwordName">
+                    <input type="text" id="name" name="name" maxlength="4" placeholder="4 char max" required>
+                    <button type="submit" class="submitButton" id="submitButton">Enter</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>built by <a href="https://github.com/burntraisin" target="_blank">burntraisin</a></p>
+        </div>
+    </body>
+</html>
