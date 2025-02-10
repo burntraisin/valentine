@@ -36,7 +36,8 @@ button:hover {
     transition: 0.3s;
 }
 
-.hi-button {
+.hi-button,
+.yes-button {
     margin-right: 10px;
 }
 
