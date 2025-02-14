@@ -7,6 +7,10 @@ h1 {
     font-size: 42px;
 }
 
+a {
+    font-family: "Open Sans", sans-serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
